@@ -1,15 +1,23 @@
 {
-    "name": "Lecture-1",
-    "version": "1.0.0",
-    "description": "",
-    "main": "Node.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "bin": {
-      "mycommand": "mkdir.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
-  }
+  "name": "Lecture-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mycommand": "mkdir.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preeti09011999/Web-Development.git"
+  },
+  "bugs": {
+    "url": "https://github.com/preeti09011999/Web-Development/issues"
+  },
+  "homepage": "https://github.com/preeti09011999/Web-Development#readme"
+}
