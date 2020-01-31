@@ -1,8 +1,8 @@
-const getRawWeather = require('./utilities/getRawWeather');
+const getRawWeather = require("../utilities/getRawWeather");
 module.exports = async function(location){
     const fullWeather = await getRawWeather(location);
     // 5 days weather
-    const TodayWeather = [0];
+    const TodayWeather = fullWeather[0];
     const currentState = TodayWeather['weather_state_name'];
     const temp = Math.ceil(TodayWeather['the_temp']);
 

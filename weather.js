@@ -16,6 +16,7 @@ async function helper(){
     //get raw response
     const rawResponse = await axios.get(`https://www.metaweather.com/api/location/${woeid}/`);
     //filter required data
+    console.log(rawResponse)
     const TodayWeather = rawResponse.data['consolidated_weather'][0];
     const currentState = TodayWeather['weather_state_name'];
     const temp = Math.ceil(TodayWeather['the_temp']);
