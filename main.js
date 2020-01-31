@@ -6,7 +6,7 @@ print(chalk.red(figlet.textSync("Weather   Forecasting")));
 // to import something
 const help = require('./cmds/help');
 const today = require('./cmds/today');
-const forecast = require('./cmds/forecast')
+const forecast = require('./cmds/forecast');
 const input = process.argv.slice(2);
 const location = input[1];
 const cmd = input[0];
